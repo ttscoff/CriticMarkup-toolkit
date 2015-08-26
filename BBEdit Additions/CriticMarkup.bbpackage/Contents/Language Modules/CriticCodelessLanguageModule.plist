@@ -31,9 +31,7 @@
 			\{&gt;&gt;(.*?)&lt;&lt;\}
 		</string>
 		<key>Function Pattern</key>
-		<string><![CDATA[
-			(?P<function_name>(?s)(\{((\+\+)|(\-\-)|(\~\~))(.*?)((\+\+)|(\-\-)|(\~\~))[ \t]*(\[(.*?)\])?[ \t]*\}))
-		]]></string>
+		<string></string>
 		<key>Identifier and Keyword Character Class</key>
 		<string>
 			0-9A-Z_a-z',."
@@ -41,9 +39,9 @@
 		<key>Skip Pattern</key>
 		<string></string>
 		<key>String Pattern</key>
-		<string>
-			
-		</string>
+		<string><![CDATA[
+			(?P<function_name>(?s)(\{((\+\+)|(\-\-)|(\~\~))(.*?)((\+\+)|(\-\-)|(\~\~))[ \t]*(\[(.*?)\])?[ \t]*\}))
+		]]></string>
 	</dict>
 </dict>
 </plist>
