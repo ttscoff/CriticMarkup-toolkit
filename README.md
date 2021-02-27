@@ -5,6 +5,8 @@ Welcome to the CriticMarkup Toolkit
 
 Critic Markup is intended to provide basic editorial change tracking in plain text files. The syntax is compatible with Markdown, MultiMarkdown and HTML.
 
+[PanDiff](https://github.com/davidar/pandiff) is a diff generator with CriticMarkup output support.
+
 ### The Three Laws ###
 
 1. Critic Markup shall be human readable. A human with a simple text editor can easily read and comprehend any text containing Critic Markup.
